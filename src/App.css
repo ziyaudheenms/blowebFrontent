@@ -1,0 +1,444 @@
+body {
+  background-color: black;
+}
+*{
+  text-decoration: none;
+}
+.home {
+  border-top: 1px solid #3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
+  padding-bottom: 5px;
+}
+.Category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  background-color: rgb(26, 26, 26);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-top: 12px;
+  /* padding-bottom: 10px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: 0.6s;
+}
+.item:hover {
+  background-color: rgb(238, 64, 93);
+  /* font-size: 18px; */
+}
+.item p {
+  color: white;
+  font-weight: 400;
+  transition: 0.6s;
+  font-size: 16px;
+}
+.item p:hover {
+  font-size: 18px;
+}
+.btn {
+  border-color: rgb(238, 64, 93);
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Head {
+  color: rgb(238, 64, 93);
+}
+.View {
+  padding: 15px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+.CARD {
+  margin: 8px;
+  padding: 10px;
+  background-color: #212529;
+  border-radius: 6px;
+  border: 1px solid rgb(61, 61, 61);
+  transition: 0.6s;
+  box-shadow: 2px 2px #1d1a1a;
+  min-width: 340px;
+}
+.top {
+  width: 100%;
+  padding: 5px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://th.bing.com/th/id/OIP.gX73rZ3sJVnJm1FPKD5svgHaEK?w=4096&h=2304&rs=1&pid=ImgDetMain");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.label {
+  background-color: rgb(238, 64, 93);
+  padding: 10px;
+  border-radius: 6px;
+  height: 40px;
+  text-decoration: none;
+}
+.label h6 {
+  color: aliceblue;
+  font-weight: 200;
+}
+.bottom h3 {
+  margin-top: 5px;
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+
+.bottom h6 {
+  color: grey;
+  font-size: 16px;
+  font-weight: 200;
+}
+.CARD:hover {
+  opacity: 0.8;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  /* background: wheat; */
+  width: 30px;
+}
+.one h6 {
+  margin-top: 1px;
+}
+.two {
+  display: flex;
+  width: 20px;
+  background: wheat;
+}
+.logoImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TopUser {
+  display: flex;
+  scroll-behavior: auto;
+}
+.topUserView {
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 250px;
+  height: 340px;
+  background-image: url("https://wallpapercave.com/wp/wp3988236.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  display: flex;
+  align-items: end;
+}
+.TopUser::-webkit-scrollbar {
+  display: none;
+}
+.content {
+}
+.content h1 {
+  font-weight: 200;
+  padding: 10px;
+  background-color: rgb(238, 64, 93);
+  border-radius: 10px;
+}
+
+.content p {
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.SACHIN {
+  background-image: url("https://th.bing.com/th/id/OIP.R8xB88cUWeaVuW7DUCrn7wAAAA?w=471&h=610&rs=1&pid=ImgDetMain");
+}
+.SANJU{
+  background-image: url('https://th.bing.com/th/id/OIP.t7fvIUfW07CBvfL3L2uXXAHaIO?w=150&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+}
+.Profile {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://th.bing.com/th/id/R.86964089209eb1706457d1f5c97f0a79?rik=%2fZzqlAg6zLAJJw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fColorful-Gradient-Desktop-Wallpaper.jpeg&ehk=EL%2bvRT%2fDuG6aSBnQrrWhj%2bIGipGfL%2fo%2fQVGGeR6uejQ%3d&risl=&pid=ImgRaw&r=0");
+  border-radius: 0 0 25px 25px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ProfileTab {
+  padding: 20px;
+  /* width: 50%; */
+  /* height: 300px; */
+  /* background: pink; */
+  border: 2px solid #3b3b3b;
+  box-shadow: 2px 2px #1d1a1a;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+.ProfileTab .left {
+  /* padding: 10px; */
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileTab .left img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  padding: 3px;
+  border: 2px solid #858585;
+}
+.ProfileTab .left .LeftBottom {
+  display: flex;
+  margin-top: 10px;
+}
+.ProfileTab .left .LeftBottom h6 {
+  padding: 10px;
+  color: wheat;
+  background-color: rgb(238, 64, 93);
+  border-radius: 10px;
+  margin: 5px;
+  font-weight: 200;
+}
+.right h1 {
+  font-size: 30px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.right {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.right .email {
+  font-style: italic;
+  color: #878787;
+}
+.Stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Stats_item {
+  color: wheat;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1d1a1a;
+  border-radius: 10px;
+}
+.bio {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.bioLeft {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 550px;
+  min-width: 300px;
+}
+.bioLeft h1 {
+  color: wheat;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(238, 64, 93);
+}
+.bioLeft p {
+  color: wheat;
+  font-weight: 200;
+  font-size: 18px;
+}
+.bioRight {
+  width: 550px;
+  min-width: 300px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bioRight h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 15px;
+  color: wheat;
+}
+.Performance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.PerformCard {
+  padding: 20px;
+  background-color: rgb(25, 24, 25);
+  margin: 5px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #302f2f;
+  box-shadow: 2px 2px #161617;
+}
+.PerformCard h2 {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+.PerformCard h4 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+.myWorks {
+  padding: 20px;
+}
+.show {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Create{
+  padding: 20px;
+}
+.blogBanner{
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  background-color: rgb(238, 64, 93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amita-regular {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amita-bold {
+  font-family: "Amita", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px rgb(13, 13, 13);
+}
+
+.form{
+  width: 90%;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 50px;
+  border: 2px solid #302f2f;
+  box-shadow: 2px 2px #161617;
+}
+
+.FORMCONT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.UserCard{
+  padding: 20px;
+  background-color:#212529;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #302f2f;
+  box-shadow: 2px 2px #161617;
+}
+.UserCardLogo{
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(238, 64, 93);
+  border-radius: 50px;
+  
+  margin-bottom: 12px;
+}
+.UserCardLogo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  padding: 3px;
+}
+.UserContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.UserCardBottom{
+  margin: 10px;
+}
+.UserCardBottom h3{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+}
+.UserCardBottom h5{
+  font-size: 18px;
+  font-weight: 200;
+}
+.BottomRating{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.BottomRating h5{
+  color: wheat;
+}
+
+
+.SUGGESTIONSLIDER::-webkit-scrollbar{
+  display: none;
+}
